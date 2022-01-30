@@ -11,10 +11,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `npm run server` for a local json server. Navigate to `http://localhost:3000/`. 
 
 # Task:
-- Simple SPA
-- basic form processing
-- basic routing
-- basic interactivity
+- Simple SPA;
+- Basic form processing;
+- Basic routing;
+- Basic interactivity.
 
 ## Pages
 
@@ -28,3 +28,4 @@ You can navigate between pages with top toolbar.
 
 4. Contact Page
 
+![Contact page](./screenshots/ContactPageView.png)
