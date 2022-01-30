@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Sleek Wooden Cheese",
+      "price": "726.00",
+      "quantity": 69150,
+      "description": "Mollitia ducimus error aut vitae animi et ut et voluptatibus. Placeat quos aut nisi hic. Suscipit doloremque porro vel non. Sed dolor maiores tempora non voluptas reprehenderit rem eligendi quis.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product"
+    },
+    {
+      "id": 3,
+      "name": "Ergonomic Wooden Mouse",
+      "price": "568.00",
+      "quantity": 55379,
+      "description": "Et dignissimos ut. Id labore sint qui error. Aut assumenda amet itaque expedita et. Quam sequi eos corrupti. Repellat dolorem maxime.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product"
+    },
+    {
+      "id": 4,
+      "name": "Ergonomic Wooden Gloves",
+      "price": "256.00",
+      "quantity": 28211,
+      "description": "Sit dolorem laborum. Optio placeat unde aperiam. Dolorem sed aspernatur tempora itaque.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product"
+    },
+    {
+      "id": 5,
+      "name": "Rustic Cotton Soap",
+      "price": "872.00",
+      "quantity": 3986,
+      "description": "Dolorem quos provident iure ut quia ab quasi eum labore. Non porro sed fugiat exercitationem omnis. Et quo cumque. Quia repellendus officiis voluptatem deserunt qui est.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product"
+    },
+    {
+      "id": 6,
+      "name": "Handmade Rubber Mouse",
+      "price": "463.00",
+      "quantity": 26013,
+      "description": "Sit vitae nihil laboriosam rerum qui. Sed sed eum magnam et deleniti atque molestias sed in. Vel sed sed et expedita quo et ea et.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product"
+    },
+    {
+      "id": 7,
+      "name": "Generic Rubber Pants",
+      "price": "466.00",
+      "quantity": 64215,
+      "description": "Molestiae aperiam mollitia dolorem expedita adipisci nesciunt pariatur mollitia. Distinctio eligendi sed molestiae. Quod nisi iusto id autem vel.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product"
+    },
+    {
+      "id": 8,
+      "name": "Rustic Granite Chair",
+      "price": "623.00",
+      "quantity": 11682,
+      "description": "Optio dolores recusandae minima occaecati nihil iste nulla. Voluptas sequi minima.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product"
+    }
+  ],
+  "subscribers": [
+    {
+      "name": "Ihor",
+      "email": "example@mail.com",
+      "subscribe": true,
+      "id": 1
+    },
+    {
+      "name": "Name",
+      "email": "example@mail.com",
+      "subscribe": true,
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "subscribe": true,
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "subscribe": true,
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "subscribe": true,
+      "id": 5
+    }
+  ]
+}

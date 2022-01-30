@@ -1,0 +1,27 @@
+.contact {
+    background-color: #293646;
+    color: white;
+}
+
+.contact .left-col {
+    background-color: #3a84fd;
+}
+
+.contact .right-col {
+    /* background-color: #293646; */
+    background-color: white;
+}
+
+.contact-form {
+    width: 100%;
+    color: black;
+}
+
+.contact-form .contact-field-full-width {
+    width: 100%;
+}
+
+input.mat-input-element {
+    color: black
+}
+

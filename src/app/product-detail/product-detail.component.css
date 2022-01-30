@@ -1,0 +1,19 @@
+.productForm {
+  width: 100%;
+}
+
+.productForm .product-field-full-width {
+  width: 100%;
+}
+
+.productForm .number-row {
+  width: 50%;
+}
+
+.product-image {
+  margin-top: 5%;
+}
+
+.delete-button {
+  float: right;
+}

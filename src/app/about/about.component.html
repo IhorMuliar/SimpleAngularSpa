@@ -1,0 +1,49 @@
+<div class="container contact mt-4">
+    <div class="row p-5">
+        <div class="col-sm left-col">
+            <div class="container p-5">
+                <h1>Let's talk with Us</h1>
+                <p>
+                    Have a product in mind that you think we would be a great fit for it? We wold love to know what you are thinking
+                </p>
+                <span class="m-3">
+                    <h2>Contact Info: </h2>
+                    <p>Phone Number: (62) 18229017</p>
+                    <p>E-mail: contact@mail.com</p>
+                    <p>Address: Example address</p>
+                </span>
+            </div>
+        </div>
+        <div class="col-sm right-col">
+            <div class="container p-5">
+                <form class="contact-form" [formGroup]="aboutForm" (ngSubmit)="sentUser()">
+                    <mat-form-field class="contact-field-full-width" appearance="outline">
+                        <mat-label>Full Name</mat-label>
+                        <input type="text" matInput formControlName="name">
+                        <mat-error *ngIf="email?.hasError('required')">
+                          Name is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field class="contact-field-full-width mt-2" appearance="outline">
+                      <mat-label>Email</mat-label>
+                      <input type="email" matInput formControlName="email" placeholder="Ex. pat@example.com">
+                      <mat-error *ngIf="email?.hasError('email') && !email?.hasError('required')">
+                        Please enter a valid email address
+                      </mat-error>
+                      <mat-error *ngIf="email?.hasError('required')">
+                        Email is <strong>required</strong>
+                      </mat-error>
+                    </mat-form-field>
+                    <div class="form-check mt-1 mb-3">
+                        <input class="form-check-input" type="checkbox" name="subscribe" formControlName="subscribe">
+                        <label class="form-check-label">
+                            Send me promotional offers
+                        </label>
+                    </div>
+
+                    <button mat-raised-button type="submit" [disabled]="!aboutForm.valid">Submit</button>
+                  </form>
+            </div>
+        </div>
+      </div>
+</div>

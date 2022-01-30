@@ -1,0 +1,77 @@
+<div class="container product">
+    <mat-card class="mt-4">
+        <mat-card-header>
+            <mat-card-title>Add new product</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <form [formGroup]="addProductForm" (ngSubmit)="save()" class="addProductForm">
+                            <div class="form-row">
+                                <div class="col">
+                                    <mat-form-field class="product-field-full-width" appearance="fill">
+                                        <mat-label>Name</mat-label>
+                                        <input type="text" matInput formControlName="name" id="name">
+                                        <mat-error *ngIf="name?.hasError('required')">
+                                          Name of product is <strong>required</strong>
+                                        </mat-error>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                            <div class="form-row number-row">
+                                <mat-form-field class="product-field-full-width" appearance="fill">
+                                    <mat-label>Price</mat-label>
+                                    <input type="number" matInput formControlName="price" id="price">
+                                    <mat-error *ngIf="price?.hasError('required')">
+                                      Price is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="product-field-full-width" appearance="fill">
+                                    <mat-label>Quantity</mat-label>
+                                    <input type="number" matInput formControlName="quantity" id="quantity">
+                                    <mat-error *ngIf="quantity?.hasError('required')">
+                                        Quantity is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+
+                            <div class="form-row mb-2">
+                                <mat-form-field class="product-field-full-width" appearance="fill">
+                                    <mat-label>Description</mat-label>
+                                    <textarea type="text" matInput formControlName="description" id="description" maxlength="300"></textarea>
+                                    <mat-hint align="end">{{description?.value.length || 0}}/300</mat-hint>
+                                    <mat-error *ngIf="description?.hasError('required')">
+                                        Description is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+
+                            <div class="form-row">
+                                <mat-form-field class="product-field-full-width" appearance="fill">
+                                    <mat-label>Image URL</mat-label>
+                                    <input type="text" matInput formControlName="imageUrl" id="imageUrl">
+                                    <mat-error *ngIf="imageUrl?.hasError('required')">
+                                        Image URL is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        
+                            <mat-card-actions>
+                                <button mat-raised-button type="submit" color="primary" [disabled]="!addProductForm.valid">Save</button>
+                                <button mat-raised-button (click)="cancel()">Cancel</button>
+                            </mat-card-actions>
+                            <small [class.d-none]="addProductForm.valid" class="text-muted">Enter all information abut product to save</small>
+                          </form>
+                    </div>
+                    <div class="col-sm">
+                        <div class="container">
+                            <img src="{{ imageUrl?.value }}" class="product-image img-fluid rounded" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

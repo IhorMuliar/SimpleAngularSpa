@@ -1,0 +1,15 @@
+.addProductForm {
+    width: 100%;
+}
+  
+.addProductForm .product-field-full-width {
+    width: 100%;
+}
+  
+.addProductForm .number-row {
+    width: 50%;
+}
+  
+.product-image {
+    margin-top: 5%;
+}
