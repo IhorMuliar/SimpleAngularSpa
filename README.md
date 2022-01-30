@@ -10,6 +10,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `npm run server` for a local json server. Navigate to `http://localhost:3000/`. 
 
+## StackBlitz
+
+You can check application preview in stackblitz by url https://stackblitz.com/edit/angular-ivy-atf4sg?file=src/app/app.component.ts and running local json server
+
 # Task:
 - Simple SPA;
 - Basic form processing;
