@@ -36,4 +36,4 @@ You can navigate between pages with top toolbar.
 </p>
 
 ![Contact page correct](./screenshots/ContactPageCorrect.png)
-![Contact page error](./screenshots/ContactPageError.png)
+![Contact page error](./screenshots/ContactPageErrors.png)
