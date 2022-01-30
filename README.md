@@ -10,8 +10,21 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `npm run server` for a local json server. Navigate to `http://localhost:3000/`. 
 
-## Task:
+# Task:
 - Simple SPA
 - basic form processing
 - basic routing
 - basic interactivity
+
+## Pages
+
+You can navigate between pages with top toolbar.
+
+1. Product Page
+
+2. Edit Product Page
+
+3. New Product Page
+
+4. Contact Page
+
