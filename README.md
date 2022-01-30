@@ -39,7 +39,16 @@ You can navigate between pages with top toolbar.
 
 ![Product edit page](./screenshots/ProductEditPage.png)
 
+<p>
+    In the produt edit page you can edit info about product or just delete that product.
+    There
+</p>
+
+![Product edit errors](./screenshots/EditProductErrors.png)
+
 3. New Product Page
+
+![New product page](./screenshots/AddNewProjectPage.png)
 
 4. Contact Page
 
