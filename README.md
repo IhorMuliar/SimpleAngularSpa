@@ -22,7 +22,22 @@ You can navigate between pages with top toolbar.
 
 1. Product Page
 
+![Product page](./screenshots/ProductPageView.png)
+
+<p>
+    At the product page list all available products.
+</p>
+
+![Product page product card](./screenshots/ProductPageCard.png)
+
+<p>
+    In the product card, there is info like name, price, quantity, id, description, and image url.
+    By clicking the edit button you will navigate to the edit product page.
+</p>
+
 2. Edit Product Page
+
+![Product edit page](./screenshots/ProductEditPage.png)
 
 3. New Product Page
 
