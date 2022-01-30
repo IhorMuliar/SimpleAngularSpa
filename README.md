@@ -34,5 +34,6 @@ You can navigate between pages with top toolbar.
     If everything is valid, you can submit the form and data will post on server `http://localhost:3000/subscribers`.
     Otherwise, validator will show proper error and basic visual feedback.
 </p>
+
 ![Contact page correct](./screenshots/ContactPageCorrect.png)
 ![Contact page error](./screenshots/ContactPageError.png)
