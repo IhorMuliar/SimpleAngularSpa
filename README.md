@@ -41,7 +41,8 @@ You can navigate between pages with top toolbar.
 
 <p>
     In the produt edit page you can edit info about product or just delete that product.
-    There
+    There is form validation and visual feedback.
+    After clicking the save button data will put on server `http://localhost:3000/products/id`.
 </p>
 
 ![Product edit errors](./screenshots/EditProductErrors.png)
@@ -49,6 +50,10 @@ You can navigate between pages with top toolbar.
 3. New Product Page
 
 ![New product page](./screenshots/AddNewProjectPage.png)
+
+<p>
+    By clicking the create button you will push new product to the server and it will apear in the list.
+</p>
 
 4. Contact Page
 
